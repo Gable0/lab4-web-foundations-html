@@ -12,7 +12,6 @@
     <h3>Gable Krich</h3>
     <hr>
     
-    <!-- use of <a> tag -->
     <p>If something breaks, or goes horribly wrong, contact Gable here:</p>
     <ul>
     <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Email</a></li>
@@ -25,13 +24,11 @@
     <br>
 
     <h2>title=>Lets get started: &DownArrow;</h2>
-    <!-- use of <abbr> tag -->
     <h4>abbr:</h4>
     <p> When making software, <abbr title="Continous Integration, Continous Development">CICD</abbr> is key.</p>
 
     <br>
 
-    <!-- use of <address> tag -->
     <h4>address:</h4>
     <address>
         Gable Krich<br>
@@ -210,16 +207,8 @@
 <h1>This is an H1 heading</h1>
 <br>
 
-<h4>head/link:</h4>
-<head> <!--won't validate becuase I am using head inside body but I need to use the head tag for the assignment-->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab4: Exploring HTML Elements</title>
-
-  <!-- use of <link> tag -->
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="https://via.placeholder.com/16" type="image/png">
-</head>
+<h4>link:</h4> <!--won't validate because it does not like when the link tag is in the body-->
+  <link rel="link" href="https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1">
 <p>link in the metadata</p>
 <br>
 
@@ -294,6 +283,11 @@
   <li>Item Two</li>
 </ul>
 <br>
+
+<h4>link:</h4> <!--does not like when the link tag is in the body, so this is a code version so it can validate-->
+<p>The &lt;link&gt; tag is used in the &lt;head&gt;.</p>
+<br>
+
 
 <h4>main:</h4>
 <main>
@@ -482,7 +476,7 @@ Line three (with no indent because I am interesting like that)
 <p>Strong is a weird way to say <strong>bold</strong> but whatever.</p>
 <br>
 
-<h4>style:</h4>
+<h4>style:</h4> <!--again will not validate because it does not like when style is in the body section-->
 <style>
     .styled-text {
         color: rgb(56, 196, 13);
