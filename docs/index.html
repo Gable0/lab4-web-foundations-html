@@ -24,7 +24,7 @@
 
     <br>
 
-    <h2 title=>Lets get started: &DownArrow;</h2>
+    <h2>title=>Lets get started: &DownArrow;</h2>
     <!-- use of <abbr> tag -->
     <h4>abbr:</h4>
     <p> When making software, <abbr title="Continous Integration, Continous Development">CICD</abbr> is key.</p>
@@ -178,16 +178,16 @@
     <fieldset>
     <legend>Enter Full Name</legend>
     <label for="name">First:</label>
-    <input type="text" id="name" name="name">
+    <input type="text" id="first_name" name="first">
     <label for="name">Last:</label>
-    <input type="text" id="name" name="name">
+    <input type="text" id="last_name" name="last">
     </fieldset>
 </form>
 <br>
 
 <h4>figure and figcaption:</h4>
 <figure>
-    <img src="https://imgs.search.brave.com/scIaQaPuA1ZGofll5t19sQ9weki3X7jNeju79LiUq1M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMi8w/NS8yNC8wNy8zOS9s/ZWdvLTcyMTc4Mjlf/NjQwLmpwZw" alt="Starwars"">
+    <img src="https://imgs.search.brave.com/scIaQaPuA1ZGofll5t19sQ9weki3X7jNeju79LiUq1M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMi8w/NS8yNC8wNy8zOS9s/ZWdvLTcyMTc4Mjlf/NjQwLmpwZw" alt="Starwars">
     <figcaption>This is a placeholder image caption.</figcaption>
 </figure>
 <br>
@@ -211,7 +211,7 @@
 <br>
 
 <h4>head/link:</h4>
-<head>
+<head> <!--won't validate becuase I am using head inside body but I need to use the head tag for the assignment-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lab4: Exploring HTML Elements</title>
@@ -548,15 +548,15 @@ Line three (with no indent because I am interesting like that)
 <br>
 
 <h4>template:</h4>
-table id="table">
+<h4>template:</h4>
+<table id="table">
   <thead>
     <tr>
-      <td>UPC_Code</td>
-      <td>Product_Name</td>
+      <th>UPC_Code</th>
+      <th>Product_Name</th>
     </tr>
   </thead>
   <tbody>
-    
   </tbody>
 </table>
 
@@ -599,7 +599,6 @@ table id="table">
 <h4>wbr:</h4>
 <p>Thisisaverylongwordthat<wbr>mightbreakhere.</p>
 <br>
-
 
 </body>
 </html>

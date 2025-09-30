@@ -10,9 +10,7 @@ Course: COMP 305 – Software Design
 ---
 
 ## 📄 Project Description
-The purpose of this lab is to explore and practice different HTML tags.  
-The `index.html` file contains examples of each element, organized by headings, with a short demo for each.  
-Deprecated or experimental tags were intentionally excluded (e.g., `<frameset>`, `<font>`, `<marquee>`, `<xmp>`).
+This lab was a "kitchen sink" of HTML tags. This was done do get me, and my classmates familiar with the basics of HTML and why it is an important language to understand even though it is slowly being forgotten. 
 
 ---
 
@@ -25,12 +23,6 @@ Deprecated or experimental tags were intentionally excluded (e.g., `<frameset>`,
   - Media (`<img>`, `<audio>`, `<video>`, `<map>`, `<area>`)
   - Interactive elements (`<button>`, `<details>`, `<summary>`, `<dialog>`)
   - Inline elements (`<span>`, `<strong>`, `<em>`, `<mark>`, `<var>`, `<kbd>`)
-- Demonstrates proper placement of `<link>` and `<meta>` in the `<head>`.
-- Excludes deprecated/obsolete tags for clarity.
-
-
-
-
 
 ---
 
